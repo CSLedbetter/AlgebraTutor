@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Driver",
+            "request": "launch",
+            "mainClass": "Driver"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CatabaseTest",
             "request": "launch",
             "mainClass": "CatabaseTest"

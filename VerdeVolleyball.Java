@@ -20,7 +20,7 @@ class VerdeVolleyball  {
             System.out.print("Enter selection number: ");
             int selection = Integer.parseInt(input.nextLine());
             if (selection == 1) {
-                System.out.print("\nEnter file name: ");
+                System.out.print("\nEnter file name with .txt: ");
                 fileName = input.nextLine();
                 Roster roster = new Roster(fileName);
                 rosterOpen = true;
@@ -56,18 +56,16 @@ class VerdeVolleyball  {
             else {
                 System.out.println("Please open a roster.\n");
             }
-
-
         }
     }
 }
 
 
 class Player {
-    String firstName;
-    String lastName;
-    double attack;
-    double defence;
+    public String firstName;
+    public String lastName;
+    public double attack;
+    public double defence;
 
     void init(String initFirstname, String initLastName, double initAtk, double initDef) {
         firstName = initFirstname;
@@ -76,21 +74,21 @@ class Player {
         defence = initDef;        
     }
 
-    double getAttack() {
+    public double getAttack() {
         return attack;    
     }
 
-    double getDefence() {
+    public double getDefence() {
         return defence;    
     }
 
-    String getName() {
+    public String getName() {
         String fullName = firstName + " " + lastName;
         System.out.println(fullName);
         return fullName;
     }
 
-    void print() {
+    public void print() {
         System.out.println(firstName + " " + lastName + " " + attack + " " + defence);       
     }
 }
