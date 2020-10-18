@@ -1,7 +1,7 @@
 /**
- * This the first Homework assignment for CSE 240. It calculates the factorial
- * of a number and modifies arrays by either changing the even and odd positions
- * or puts them in acending order.
+ * This the first Homework assignment for CSE 240. Used in HomeworkTwo 
+ * to create new students and split an entered string for a new student's
+ * name.
  * 
  * Completion time: 1 hours
  *

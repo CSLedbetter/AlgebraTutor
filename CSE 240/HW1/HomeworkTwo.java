@@ -1,12 +1,13 @@
 /**
  * This the first Homework assignment for CSE 240. It uses the
  * Student and Classroom Java files to create students and 
- * assign their seating in a classroom.
+ * assign their seating in a classroom and print the results
+ * entered by the user.
  * 
- * Completion time: .5 hours
+ * Completion time: 1 hours
  *
  * @author Casey Ledbetter
- * @version (version)
+ * @version Version 1
  */
 
 import java.util.Scanner;
